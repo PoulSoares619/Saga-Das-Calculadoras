@@ -5,7 +5,9 @@
     display: flex;
     flex-direction: column;   
     align-items: center;
-    background-color: blue;
+    background-image: linear-gradient(45deg, black, rgb(238, 12, 125));
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .titulo {
@@ -20,4 +22,26 @@
 
    width: fit-content;  /*  fit content - faz com que o elemento, ocupe aopenas o proprio tamanho */
     margin: auto 0;
+    background-color: rgba(0,  0,  0, 0.8)  ;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(36, 28, 28);
+    color: #fff;
+    
+    border: none;
+}
+
+.botao:hover {
+    background-color: gray;
+    box-shadow: 3px 3px rgb(235, 226, 226);
+    color: black;
+
 }
